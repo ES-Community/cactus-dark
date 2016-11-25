@@ -2,9 +2,9 @@ nav:
     Home: /
     About: /about/
     Writing: /archives/
-    Projects: https://github.com/ES-Community/hexo-blog
+    Projects: https://github.com/ES-Community/ES-Community.github.io.git
 
-projects_url: https://github.com/ES-Community/hexo-blog
+projects_url: https://github.com/ES-Community/ES-Community.github.io.git
 
 customize:
     logo:
