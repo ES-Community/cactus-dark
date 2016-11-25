@@ -1,10 +1,10 @@
 nav:
-  Home: /
-  About: /about/
-  Writing: /archives/
-  Projects: http://github.com/probberechts
+    Home: /
+    About: /about/
+    Writing: /archives/
+    Projects: https://github.com/ES-Community/hexo-blog
 
-projects_url: http://github.com/probberechts
+projects_url: https://github.com/ES-Community/hexo-blog
 
 customize:
     logo:
@@ -14,15 +14,15 @@ customize:
         url: /images/logo.png
         favicon: /images/favicon.png # path to favicon
     social_links:
-        github: http://github.com/probberechts/cactus-dark
-        twitter: /
-        facebook: /
-        linkedin: /
-    post_count: 5
-    highlight: rainbow
+        github: https://github.com/ES-Community
+        # twitter: /
+        # facebook: /
+        # linkedin: /
+    post_count: 10
+    highlight: monokai-sublime
 
 # RSS
-rss: false
+rss: 
 
 # Plugins
 plugins:
