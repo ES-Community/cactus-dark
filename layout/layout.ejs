@@ -9,6 +9,11 @@
         <% if (!is_post()) { %>
           <%- partial('_partial/header') %>
         <% } %>
+        <% if (page.author) { %>
+          <div style="display:flex; justify-content: center; margin-bottom: 2em;">
+            <%- githubCard({user: page.author}) %>
+          </div> 
+        <% } %>
         <%- body %>
       </div>
     <%- partial('_partial/footer') %>
