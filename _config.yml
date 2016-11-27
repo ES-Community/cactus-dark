@@ -2,6 +2,7 @@ nav:
     Home: /
     About: /about/
     Writing: /archives/
+    Feeds: /atom.xml
     Projects: https://github.com/ES-Community/ES-Community.github.io.git
 
 projects_url: https://github.com/ES-Community/ES-Community.github.io.git
@@ -15,6 +16,7 @@ customize:
         favicon: /images/favicon.png # path to favicon
     social_links:
         github: https://github.com/ES-Community
+        rss: /atom.xml
         # twitter: /
         # facebook: /
         # linkedin: /
@@ -22,7 +24,7 @@ customize:
     highlight: monokai-sublime
 
 # RSS
-rss: 
+rss:
 
 # Plugins
 plugins:
