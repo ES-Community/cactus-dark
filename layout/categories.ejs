@@ -1,0 +1,7 @@
+<h3>Nos Catégories</h3>
+
+<ul class="post-list">
+  <% page.each(category => { %>
+    <li class="post-item"><a href="<%- category.slug %>"><%- category.name %></a></li>
+  <% }) %>
+</ul>
