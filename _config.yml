@@ -16,7 +16,7 @@ nav:
   about: /about/
   articles: /archives/
   feeds: /atom.xml
-  projects: projects_url
+  projects: https://github.com/ES-Community/ES-Community.github.io.git
 
 
 # Links to your social media accounts.
