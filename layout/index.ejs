@@ -14,7 +14,7 @@
       ---></a><!--
       ---><% } else { %>
           <a class="icon" target="_blank" href="<%- url_for(theme.social_links[link]) %>">
-            <i class="fab fa-<%= link %>"></i><!--
+            <i class="<%= theme.fa_context[link] || 'fa' %> fa-<%= link %>"></i><!--
       ---></a><!--
     ---><% } %><!--
     ---><%= ( nb_links > 0 && i < nb_links-1 ?
