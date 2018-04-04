@@ -15,6 +15,7 @@ nav:
   home: /
   about: /about/
   articles: /archives/
+  search: /Search/
   feeds: /atom.xml
   projects: https://github.com/ES-Community/ES-Community.github.io.git
 
