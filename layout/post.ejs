@@ -17,7 +17,7 @@
   <div class="content" itemprop="articleBody">
     <%- page.content %>
   </div>
-  <%- partial('_partial/git-history.js') %>
+  <%- partial('_partial/git-history.ejs') %>
   <% if (page.author) { %>
     <div id="page-author" style="display:flex; justify-content: center; margin-top: 2em;">
       <%- githubCard({user: page.author}) %>
